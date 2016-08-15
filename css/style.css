@@ -1,0 +1,33 @@
+body{
+	border-top: 5px solid #324A5F;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.white{
+	color:  white;
+}
+.argentina{
+    background: url(../img/flagofargentina.svg);
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    -webkit-filter: blur(5px);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5vh;
+    background: #324A5F;
+    font-size: 3vh;
+    color: white;
+}

@@ -18,7 +18,7 @@
 	<link rel="stylesheet" href="css/style.css">
 
 	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment-with-locales.min.js"></script>	
 </head>
@@ -41,6 +41,7 @@
 
 	<footer class="text-center">
 		#voltavavo
+		#ovavovemai
 	</footer>
 	<script>
 		$(document).ready(function(){
@@ -50,7 +51,7 @@
 
 			function countdown(){
 				var now = moment(new Date()); //todays date
-				var end = moment("2017-01-01", "YYYY-MM-DD"); // another date
+				var end = moment("2016-12-15", "YYYY-MM-DD"); // another date
 				var duration = moment.duration(end.diff(now));
 
 				$(".days").html(parseInt(duration.asDays()));
